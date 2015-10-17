@@ -46,7 +46,7 @@ VOLUME /storage/shared
 VOLUME /storage/pillar-web/uploads
 VOLUME /storage/pillar-web/storage
 
-EXPOSE 5001
+EXPOSE 80
 
 ADD 000-default.conf /etc/apache2/sites-available/000-default.conf
 
